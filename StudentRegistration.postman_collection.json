@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "48f12707-8c40-42a1-9415-a35178efb95c",
+		"name": "StudentRegistration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46041368",
+		"_collection_link": "https://saadia-3880495.postman.co/workspace/Saadia's-Workspace~423a4607-5295-4e3a-8599-223076abde5f/collection/46041368-48f12707-8c40-42a1-9415-a35178efb95c?action=share&source=collection_link&creator=46041368"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/students/1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Test User\",\r\n  \"email\": \"testuser@example.com\",\r\n  \"course\": \"CS\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/students/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
